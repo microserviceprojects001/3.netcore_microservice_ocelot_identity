@@ -312,6 +312,74 @@
         <mxCell id="YMQhunMNkOnp3xdV8ZyM-78" value="SideCar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1072.5" y="1910" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;认证服务&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392.5" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMQhunMNkOnp3xdV8ZyM-83" target="YMQhunMNkOnp3xdV8ZyM-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-83" value="Consumer" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457.5" y="2385" as="sourcePoint" />
+            <mxPoint x="737.5" y="2580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="458" y="2580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-84" value="APIGateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2295" width="235" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMQhunMNkOnp3xdV8ZyM-85" target="YMQhunMNkOnp3xdV8ZyM-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-85" value="UserService" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="2295" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="YMQhunMNkOnp3xdV8ZyM-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="2583" as="sourcePoint" />
+            <mxPoint x="907.5" y="2338" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="928" y="2583" />
+              <mxPoint x="928" y="2335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-86" value="Identity Service" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737.5" y="2540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.106;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YMQhunMNkOnp3xdV8ZyM-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836.3" y="2620.99" as="sourcePoint" />
+            <mxPoint x="403.7100000000001" y="2385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="798" y="2671" />
+              <mxPoint x="404" y="2671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-94" value="api jessetalk cn/passport/authorize?&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="133.5" y="2385" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-95" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="2540" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-96" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="2428" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-97" value="4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="745" y="2428" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-98" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="2680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMQhunMNkOnp3xdV8ZyM-99" value="1. UserService CheckOrCreate Service&lt;div&gt;&amp;nbsp; &amp;nbsp;2. Identity Service Customer Validator&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;3. Crossing Service request protect(polly)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.Ocelot Authentication integrationi&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. Ocelot consul integration&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="982.5" y="2160" width="347.5" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
